@@ -37,7 +37,7 @@ function destructivelyRemoveFirstKitten(){
       }
     function removeLastKitten(){
       
-      var removeLastKitten= kitens.slice(0, -1)
+      var removeLastKitten= kitens.slice(0,-1)
       return removeLastKitten
     }
     
