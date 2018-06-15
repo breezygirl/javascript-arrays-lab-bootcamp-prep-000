@@ -31,7 +31,7 @@ function destructivelyRemoveFirstKitten(){
    return prependKitten
     }
     
-    function removeLastKitten(){
+    function removeFirstKitten(){
       var removeFirstKitten= kittens.slice(1,3)
       return removeFirstKitten
       }
