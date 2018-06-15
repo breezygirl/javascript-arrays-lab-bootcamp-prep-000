@@ -33,8 +33,8 @@ function destructivelyRemoveFirstKitten(){
     
     function removeLastKitten(){
       
-     var removeLastKitten= kittens.slice(1,3)
-      console.log(removeLastKitten)
+     var removeFirstKitten= kittens.slice(1,3)
+      console.log(removeFirstKitten)
       
     }
     
